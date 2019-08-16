@@ -24,16 +24,20 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web. react simplifies the process of creating components and utilizing those componenets to store data to be used later on. it simplifies that process into components that are able to "talk" across files in the application. this allows the reader to look at pieces of the code and debug or code better with less staring back from the screen.
 
 - [ ] What does it mean to _think_ in react?
+from my best description of what it is to think is that the functions work along with the ability to retain and then use information from state later on when a function is called that uses it. but also in the instance that its only called upon when needed and not every time the page is reloaded/rendured.
 
 - [ ] Describe state.
+state is the way to save information like memory of small tasks or information to be used later.
+
 
 - [ ] Describe props.
+props is  way to conect one page of jsx to another in the instance of moving components and their info that is saved in state/memory.
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
-
+we use imports and exports to bring in additional libraries to allow for the adjustments of react in the page. the import of information from one page to another allows the "sync" to occur. utilizing the library terms give specific additional functionality that wouldnt occur without a lot of headache.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
