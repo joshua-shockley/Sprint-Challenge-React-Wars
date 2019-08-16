@@ -8,7 +8,8 @@ const NasaCard = (props) => {
     border: 1px solid black;
     margin: 20px auto;
     background: darkolivegreen;
-    width: 90%;
+    width: 100%;
+    border-radius: 10%;
     `;
 
     const CardContent = styled.div`
@@ -16,25 +17,31 @@ const NasaCard = (props) => {
     margin: 2% auto;
     display:flex; 
     justify-content: space-evenly;
-    background: silver;
+    background: black;
     border-radius: 5%;
     background: gold;
-    border: 2px solid outset black;
+    border: 2px solid outset gold;
     
     `;
 
     const Header = styled.header`
-    margin: 5px auto;
-    padding: 20px;
-    border: 2px solid outset black;
+    width: 15%;
+    margin: 3px auto;
+    padding: 10px;
+    border: 2px solid outset gold;
+    background: black;
+    color:gold;
 
     `;
 
     const CardP = styled.div` 
+    width: 15%;
     margin: 2px 2px 2px 2px;
     padding: 2px;
-    border: 2px solid black;
-    border-radius: 5%;
+    border: 2px solid gold;
+    border-radius: 15%;
+    color: gold;
+    background: black;
 
     `;
     

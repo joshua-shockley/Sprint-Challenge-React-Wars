@@ -25,7 +25,7 @@ const [actor, setActor]= useState([]);
 
 
 const Container = styled.div` 
-width: 60%;
+width: 90%;
 margin: 0 auto;
 `;
 
